@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bố cục với Float và Overflow</title>
+    <!-- Liên kết tệp CSS cùng thư mục -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Bố cục trang với float và overflow</h1>
+
+    <!-- KHỐI 2 CỘT DÙNG FLOAT & OVERFLOW HIDDEN ĐỂ CLEARFIX -->
+    <div class="container">
+        <div class="left-column">
+            <h3>Nội dung bên trái</h3>
+            <p>Cột trái chiếm 50% chiều rộng và float left.</p>
+        </div>
+        <div class="right-column">
+            <h3>Nội dung bên phải</h3>
+            <p>Cột phải chiếm 50% chiều rộng và float right.</p>
+        </div>
+    </div>
+
+    <!-- KHỐI DÙNG OVERFLOW DẠNG TỰ ĐỘNG HIỂN THỊ THANH CUỘN -->
+    <div class="overflow-box">
+        Đây là một đoạn văn bản rất dài mà chúng ta sẽ kiểm tra cách `overflow` hoạt động khi nội dung vượt quá kích thước của phần tử. 
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ultricies nunc in mauris pharetra, a ultricies justo fermentum. 
+        Curabitur elementum est eget arcu sodales, non pellentesque risus euismod.
+    </div>
+
+</body>
+</html>
